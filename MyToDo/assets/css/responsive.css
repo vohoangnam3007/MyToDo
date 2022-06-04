@@ -1,0 +1,37 @@
+
+/* mô bi lé */
+@media(max-width: 739px) {
+
+    .box-add__input {
+        padding-right: 20px;
+        width: 300px;
+        height: 40px;
+        outline: none;
+        font-size: 1.4rem;
+        padding-left: 18px;
+        border-radius: 4px;
+        border: 2px solid var(--base-color);
+        color: rgba(54, 89, 116, 0.8);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .box-wrap {
+      
+        min-height: 450px;
+        background-color: var(--white-color);
+        border-radius: 8px;
+        padding: 30px 0;
+        
+    }
+
+    .main {
+        width: 375px;
+        min-height: 640px;
+ 
+    }
+
+    .box-footer {
+        bottom: -100px;
+    }
+
+}
